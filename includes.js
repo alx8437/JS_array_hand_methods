@@ -14,9 +14,7 @@ const includesPlus = (arr, el) => {
 
     //By for of
     for (const item of arr) {
-        if (item === el) {
-            return  true
-        }
+        if (item === el)  return  true
     }
     return false
 }
